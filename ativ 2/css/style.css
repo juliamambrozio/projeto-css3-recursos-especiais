@@ -1,0 +1,34 @@
+@charset "UTF-8";
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px; /*O padding faz parte do tamanho total da caixa*/
+
+    /*border-box: perde comportamento de som com o padding*/
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+
+    /* Para se adaptar a cada mecanimos de busca */
+   /*  -webkit-border-radius: 20px 80px;
+    -moz-border-radius: 20px 80px;
+    border-radius: 20px 80px; */
+}
+
+#caixa2{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+
+    /* Para se adaptar a cada mecanimos de busca */
+  /*   -webkit-border-radius: 20px 80px;
+    -moz-border-radius: 20px 80px;
+    border-radius: 20px 80px; */
+}
+
+img.arredondamento{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
