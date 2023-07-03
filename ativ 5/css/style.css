@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+
+--- Criando animação ---
+
+@key-frames: Nome da animação (tem que usar prefixos) 
+
+*/
+@keyframes animacao-caixa{
+    from { /* de (ínicio) */
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    } 
+    to { /* para (final) */
+        background: purple;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    } 
+}
+
+
+
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /* Aplicando a animação */
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 2s; /*Tempo de espera para começar a animação*/
+    animation-iteration-count: 4; /*Quantas vezes a animação vai fazer*/
+    animation-direction: alternate;
+    /*Como a animação vai se comportar: : vai do final pro começo;
+    alternate: vai de um para o outro animando*/
+
+        /* SHORTHAND */
+        -webkit-animation: animacao-caixa 5s 2s  4 alternate;
+        -moz-animation: animacao-caixa 5s 2s  4 alternate;
+        -o-animation: animacao-caixa 5s 2s  4 alternate;
+        animation: animacao-caixa 5s 2s  4 alternate;
+
+}
