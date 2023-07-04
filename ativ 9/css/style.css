@@ -9,7 +9,7 @@
     /*
     flex direction: row/row-reverse/column/column-reverse
     */
-    /* flex-direction: row; */
+    /*  flex-direction: row;  */
     
     /*
     flex wrap: 
@@ -40,14 +40,21 @@
 }
 
 .item{
-    width: 200px;
-    height: 100px;
+    /* width: 200px;*/
+    height: 100px; 
     margin: 10px;
     background: white;
     border: 1px solid gray;
 
    /*Define a proporção de espaço ocupado por um item*/
     flex-grow: 0;
+
+    /*Define a proporção de redução de tamanho de item*/
+    flex-shrink: 1;
+
+    /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante */
+    flex-basis: 100px;
+
 }
 
 /*---- ORDEM DE EXIBIÇÃO ----*/
@@ -69,16 +76,20 @@
 } */
 
 .item1{
-     flex-grow: 1;  /*Cresce até o final do container*/
+     /* flex-grow: 1; */  /*Cresce até o final do container*/
+     /* flex-shrink: 1; */
+    
 
 }
 
 .item2{
-     flex-grow: 2; /*Cresce até o final do container*/
+     /* flex-grow: 2; */ /*Cresce até o final do container*/
+     /* flex-shrink: 2; */
 
 }
 
 
 .item3{
-    flex-grow: 3; /*Quanto maior o número, mais ele ocupa*/
+    /* flex-grow: 3; */ /*Quanto maior o número, mais ele ocupa*/
+    /* flex-shrink: 5; */ /*Quanto maior o número menor, é o espaço que ele o ocupa*/
 }
