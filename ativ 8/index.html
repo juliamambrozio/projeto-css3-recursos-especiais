@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags input</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="get">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required ><!--  Required: obrigatório preencher o campo 
+        autofocus: qual campo deve ser preenchido primeiro
+        min: mínimo
+        max: máximo
+        step: vai de valor em valor que for fornecido-->
+        <br>
+
+        <label for="number">Número</label>
+        <input type="number" name="number" id="number" required  autofocus min="1" max="10" step="5">
+        <br>
+
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" required placeholder="ex: http://www...">
+        <br>
+
+        <label for="search">Pesquisa:</label>
+        <input type="search" name="search" id="search" required>
+        <br>
+
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range" required min="1" max="20" value="10">
+        <br>
+
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data" required>
+        <br>
+
+        <label for="cor">Color:</label>
+        <input type="color" name="cor" id="cor" required>
+        <br>
+
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
