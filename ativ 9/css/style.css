@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+#conteudo{
+    background: #dcdcdc;
+  
+    height: 400px;
+    display: flex; /*Fica um ao lado do outro*/
+
+    /*
+    flex direction: row/row-reverse/column/column-reverse
+    */
+    flex-direction: row;
+    
+    /*
+    flex wrap: 
+    wrap: nowrap(Não quebra itens, e sim aperta)
+    wrap(Faz a quebra)
+    wrap-reverse(Faz a quebra ao contrário)
+    */
+    flex-wrap: wrap;
+
+    /*justify content
+    flex start(de onde começa)
+    flex-end(de onde termina)
+    center(centralizados)
+    space-between(distribui os itens para os inicais e finais ficarem colados)
+    space-around(são distribuidos, mas não ficam colados) */
+    justify-content: space-around;
+
+    /*align items
+    stretch(opção padrão da altura)
+    center(ficam centralizados)
+    flex-start(ficam colados na parte superior)
+    flex-end(ficam colados na parte inferior)
+    baseline(alinhamento através da linha superior do texto)
+    */
+    align-items: baseline;
+
+
+}
+
+.item{
+    
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    
+}
