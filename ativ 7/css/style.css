@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+header{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+nav{
+    list-style: none;
+    border: 1px solid purple;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(137, 43, 226, 0.274);
+}
