@@ -1,16 +1,34 @@
 @charset "UTF-8";
 
-header{
+header{ /* Cabeçalho */
     padding: 10px;
     border: 1px solid black;
 }
 
-nav{
+nav{ /* Navegação */
     list-style: none;
     border: 1px solid purple;
     padding: 10px;
 }
 
-footer{
+footer{ /* Rodapé */
     background-color: rgba(137, 43, 226, 0.274);
+}
+
+article{ /* Artigo do site */
+    background: orange;
+    padding: 5px;
+}
+
+section{ /* Separar conteúdos */
+    border: 1px solid red;
+    
+}
+
+time{ /* Tempo */
+    font-weight: bold;
+}
+
+aside{ /* Conteúdo lateral */
+    background: blue;
 }
