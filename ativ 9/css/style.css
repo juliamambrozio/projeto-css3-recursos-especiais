@@ -9,7 +9,7 @@
     /*
     flex direction: row/row-reverse/column/column-reverse
     */
-    flex-direction: row;
+    /* flex-direction: row; */
     
     /*
     flex wrap: 
@@ -17,7 +17,7 @@
     wrap(Faz a quebra)
     wrap-reverse(Faz a quebra ao contrário)
     */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /*justify content
     flex start(de onde começa)
@@ -25,7 +25,7 @@
     center(centralizados)
     space-between(distribui os itens para os inicais e finais ficarem colados)
     space-around(são distribuidos, mas não ficam colados) */
-    justify-content: space-around;
+    /*justify-content: space-around; */
 
     /*align items
     stretch(opção padrão da altura)
@@ -34,15 +34,51 @@
     flex-end(ficam colados na parte inferior)
     baseline(alinhamento através da linha superior do texto)
     */
-    align-items: baseline;
+    /* align-items: baseline; */
 
 
 }
 
 .item{
-    
+    width: 200px;
+    height: 100px;
     margin: 10px;
     background: white;
     border: 1px solid gray;
-    
+
+   /*Define a proporção de espaço ocupado por um item*/
+    flex-grow: 0;
+}
+
+/*---- ORDEM DE EXIBIÇÃO ----*/
+/* .ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+}
+
+.ordem{
+    order: 0;
+} */
+
+.item1{
+     flex-grow: 1;  /*Cresce até o final do container*/
+
+}
+
+.item2{
+     flex-grow: 2; /*Cresce até o final do container*/
+
+}
+
+
+.item3{
+    flex-grow: 3; /*Quanto maior o número, mais ele ocupa*/
 }
