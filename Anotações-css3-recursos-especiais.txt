@@ -1,0 +1,23 @@
+PROJETO MUSEU NACIONAL: Compatibilidade, sections, nav, header, footer, 
+float, imagem sob a outra, exportando vídeo do youtube e mapa, conteúdo 
+lado a lado, explicando margin collapse
+--------------------------------------------------------------
+
+Projeto CSS3 e HTML5 de recursos avançados
+
+1-Normalize css: configuração padrão para todos os mecanismos de busca
+Copiar arquivo do link: (https://necolas.github.io/normalize.css/)
+2-Border Radius e Box Sizing: arredondamento de imagens, removenedo 
+o padding do tamanho total, prefixos (adaptamento de tags para cada M.B, 
+webkit e moz)
+3-Degradês (em formato de linha e círculo) e Transparência (RGB)
+4-Sombras
+5-Animações: @keyframe (prefixos com moz e webkit), propriedades 
+e shorthand
+6-Transições
+7-Novas tags HTML5 (header, nav, footer. article. section, aside e time), 
+compatibilidade
+8-Novas tags de input (valores explicados no arquivo)
+9-Flexbox- display flex, flex direction, flex wrap, justify content, 
+align items, ordem de exibição, flex grow, flex shrink e flex basis 
+(valores explicados no arquivo) ("Autoprefixer CSS online")
